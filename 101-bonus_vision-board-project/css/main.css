@@ -1,0 +1,75 @@
+/********   font-family: 'Permanent Marker', cursive; 
+            font-family: 'Montserrat', sans-serif;
+
+/********* headings *********
+h1 is 30px, Permanent marker font
+h2 has yellow highlight; 30px size
+<p> text is uppercase with some words <strong> and title case; 20px size ****/
+
+body {
+    background: #E8E8E8;
+    margin: 30px 30px 30px 60px;
+}
+
+#vision-board {
+    background: url('../img/background.png');
+    background-size: cover;
+    font-family: 'Montsearrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    height: 850px;
+    margin: auto;
+    text-transform: uppercase;
+    width: 1200px;
+}
+
+.block {
+    box-sizing: border-box;
+    float: left;    
+    width: 400px;
+}
+
+.large-block {
+    height: 430px;
+    padding: 50px;
+}
+
+.small-block {
+    height: 210px;
+    padding: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.light-bg {
+    background: #FFFFFF;
+}
+
+.dark-bg {
+    background: #3B3B3B;
+}
+
+.marker {
+    font-family: 'Permanent Marker', cursive; 
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.bold-sentence {
+    font-size: 38px;
+    text-transform: none;
+}
+
+.highlight {
+    background-color: #FFF44F;
+    padding: 5px;
+}
